@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fff4e0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  max-width: 78rem;
+  margin: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 3rem 4rem 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.biodata {
+  font-family: "Edu NSW ACT Foundation", cursive !important;
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffbf9b;
+  border-radius: 10px;
+}
+
+.identity {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  font-family: "Poppins";
+}
+
+.identity th {
+  font-size: 16px;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.image-wrapper img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.hobi {
+  font-family: "Edu NSW ACT Foundation", cursive !important;
+  font-size: 26px;
+}
+
+.hobi-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hobi-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-family: "Edu NSW ACT Foundation", cursive !important;
+}
+
+.game {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+.traveling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1619467416348-6a782839e95f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.kuliner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+
+.description h2 {
+  font-family: "Edu NSW ACT Foundation", cursive !important;
+  font-size: 26px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  font-family: "Poppins";
+}
